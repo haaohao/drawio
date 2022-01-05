@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-01-05T06:34:22.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.1" etag="E_PqS0EraCV6YbR9eMKU" type="github"><diagram id="6-RxOuhBwTW7zrUwClZ3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-05T06:34:50.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="e9M7rW0tU0a3nNtdRaSf" version="16.2.1" type="github">
+  <diagram id="6-RxOuhBwTW7zrUwClZ3" name="Page-1">
+    <mxGraphModel dx="1186" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="1140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-2" value="&lt;font color=&quot;#ff66b3&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;服务端&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#E6D0DE;" edge="1" parent="1" source="6VA3TQk2M3sT74vTFOpX-5" target="6VA3TQk2M3sT74vTFOpX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="430" />
+              <mxPoint x="510" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-4" value="1 发送浏览器端支持的一套加密算法和hash算法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="6VA3TQk2M3sT74vTFOpX-3">
+          <mxGeometry x="0.0118" y="-1" relative="1" as="geometry">
+            <mxPoint x="-73" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-5" value="&lt;font color=&quot;#ff66b3&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;浏览器&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-6" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF0000;exitX=-0.033;exitY=0.296;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.011;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e1d5e7;strokeColor=#E6D0DE;" edge="1" parent="1" source="6VA3TQk2M3sT74vTFOpX-2" target="6VA3TQk2M3sT74vTFOpX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="470" as="sourcePoint" />
+            <mxPoint x="630" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-7" value="3 返回选择的加密算法和hash算法,&lt;br&gt;同时带上服务器证书" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="6VA3TQk2M3sT74vTFOpX-6">
+          <mxGeometry x="0.1232" y="3" relative="1" as="geometry">
+            <mxPoint x="-69" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#E6D0DE;" edge="1" parent="1" source="6VA3TQk2M3sT74vTFOpX-5" target="6VA3TQk2M3sT74vTFOpX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="430" as="sourcePoint" />
+            <mxPoint x="680" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="550" />
+              <mxPoint x="410" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-9" value="5 校验证书之后, 返回如下信息:&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1 RandomKey对称密码, 通过公钥加密 RK&lt;br&gt;2 握手消息msg, 通过hash算法签名 MH, 再通过对称密码RandomKey进行加密&lt;br&gt;3 msg + hash MH&lt;/blockquote&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="6VA3TQk2M3sT74vTFOpX-8">
+          <mxGeometry x="-0.3353" y="-3" relative="1" as="geometry">
+            <mxPoint x="-106" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-10" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF0000;exitX=-0.003;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6VA3TQk2M3sT74vTFOpX-2" target="6VA3TQk2M3sT74vTFOpX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="460" as="sourcePoint" />
+            <mxPoint x="630" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-11" value="&lt;div&gt;7 服务端发送握手消息:&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;1 握手消息msg, 通过对称密码RandomKey加密 MH&lt;br&gt;2 msg&lt;/blockquote&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="6VA3TQk2M3sT74vTFOpX-10">
+          <mxGeometry x="0.1954" y="1" relative="1" as="geometry">
+            <mxPoint x="-54" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-12" value="&lt;font color=&quot;#ff0000&quot;&gt;2 服务器选择一套加密算法和hash算法&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="430" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-13" value="&lt;font color=&quot;#ff0000&quot;&gt;6 服务器通过私钥解密, 获取到对称密码RandomKey, &lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;然后通过对称解密获取到MH,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;然后和浏览器发送的MH比对&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="540" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-14" value="&lt;font color=&quot;#ff0000&quot;&gt;4 校验证书&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6VA3TQk2M3sT74vTFOpX-15" value="&lt;font color=&quot;#ff0000&quot;&gt;8 使用RandomKey解密MH, 然后同msg比对, 完成握手的动作&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="560" width="240" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
