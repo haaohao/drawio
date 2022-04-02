@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T09:14:50.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.4.0" etag="j6U3FEMD5rPZVy3DQrZE" type="github"><diagram id="kKuWPE1jB9l12PlE6QZa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T09:40:01.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="NwG3yr_6nfitPt37WpKl" version="17.4.0" type="github">
+  <diagram id="kKuWPE1jB9l12PlE6QZa" name="Page-1">
+    <mxGraphModel dx="2013" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="320" width="1010" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="370" width="630" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yA_esbmEAKO1E47x6WQ1-10" target="yA_esbmEAKO1E47x6WQ1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-42" value="更新世界的状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yA_esbmEAKO1E47x6WQ1-41">
+          <mxGeometry x="0.1294" y="2" relative="1" as="geometry">
+            <mxPoint x="26" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-10" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-12" value="提供出来一系列用户脚本 可以操作世界的 API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-17" value="GraalVm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="475" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yA_esbmEAKO1E47x6WQ1-22" target="yA_esbmEAKO1E47x6WQ1-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-43" value="更新世界的状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yA_esbmEAKO1E47x6WQ1-37">
+          <mxGeometry x="-0.1176" y="-3" relative="1" as="geometry">
+            <mxPoint x="15" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-22" value="脚本运行器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="260" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-28" value="State" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-8" value="用户编写的脚本 js 或其他语言" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yA_esbmEAKO1E47x6WQ1-8" target="yA_esbmEAKO1E47x6WQ1-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-29" value="调用 API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yA_esbmEAKO1E47x6WQ1-24">
+          <mxGeometry x="-0.3515" y="-4" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yA_esbmEAKO1E47x6WQ1-49" target="yA_esbmEAKO1E47x6WQ1-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="590" />
+              <mxPoint x="610" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-32" value="加载并运行脚本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yA_esbmEAKO1E47x6WQ1-23">
+          <mxGeometry x="-0.5687" y="3" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-47" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#cc0000&quot;&gt;Script Shell&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-48" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#cc0000&quot;&gt;Guest Script&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-49" value="可以存放在 IPFS 或者数据库, 或者从 Game Server 中获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yA_esbmEAKO1E47x6WQ1-50" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#cc0000&quot;&gt;Script Server&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
