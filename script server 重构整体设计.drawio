@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T02:19:28.726Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="16.2.6" etag="Lp_Zvf5HUjstW5eO3z7M" type="github"><diagram id="EDEEomOcJfc4IdZnWbGH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T08:37:30.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="EkWJ-0NM4_bZruYk2X-0" version="17.4.0" type="github">
+  <diagram id="EDEEomOcJfc4IdZnWbGH" name="Page-1">
+    <mxGraphModel dx="2013" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="1140" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-1" value="game server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-3" value="解析 Game Server 发送过来的 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-4" value="方法名字&lt;br&gt;方法参数&lt;br&gt;通过方法名字和方法参数调用对应的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-5" value="raw 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-7" value="start 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-8" value="poll 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-9" value="&lt;span style=&quot;color: rgb(126 , 166 , 224) ; text-align: left&quot;&gt;Script Server 通过 Game Server 发送过来的初始化配置, 进行初始化工作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-10" value="同时将当前世界的状态放入 snapshot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-11" value="pretTick 将 Game Server 状态改动同步回去 Script Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-12" value="调用 poll 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-13" value="pollDone?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-15" value="Scheduler 获取并执行&lt;i&gt;&lt;b&gt;&lt;font color=&quot;#ff9999&quot;&gt;特定时间&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;的任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="760" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-16" value="将当前状态和上一帧的状态对比, 生成 patch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-17" value="发送到 Game Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-18" value="&lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;特定时间&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: 帧差 * 帧时长(64 ms)&lt;br&gt;&lt;br&gt;帧差: Game Server 发过来的帧值 和 Script Server 当前帧值的 差值&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="360" width="230" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
