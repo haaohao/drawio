@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T08:58:16.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="pfu85EypIn5MwLFDvx90" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T08:59:29.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="qoER5ayKg2Y3R-btrGJA" version="17.4.0" type="github">
   <diagram id="EDEEomOcJfc4IdZnWbGH" name="Page-1">
     <mxGraphModel dx="2013" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-7" value="start 方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-8" target="7LyzdLkQbXA0cZ49Apmb-13">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="580" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-9" value="&lt;span style=&quot;text-align: left&quot;&gt;Script Server 通过 Game Server 发送过来的初始化配置, 进行初始化工作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-54" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-11" target="7LyzdLkQbXA0cZ49Apmb-12">
           <mxGeometry relative="1" as="geometry" />
@@ -97,13 +97,13 @@
             <mxPoint x="400" y="290" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-40" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=3;" edge="1" parent="1" target="7LyzdLkQbXA0cZ49Apmb-7">
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-40" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-20" target="7LyzdLkQbXA0cZ49Apmb-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="290" as="sourcePoint" />
-            <mxPoint x="400" y="410" as="targetPoint" />
+            <mxPoint x="420" y="290" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="400" y="380" />
-              <mxPoint x="140" y="380" />
+              <mxPoint x="160" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
