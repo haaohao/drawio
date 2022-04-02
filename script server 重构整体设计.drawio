@@ -1,20 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T08:59:29.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="qoER5ayKg2Y3R-btrGJA" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T09:07:04.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="i_vtMIsswdwC3rdWylpD" version="17.4.0" type="github">
   <diagram id="EDEEomOcJfc4IdZnWbGH" name="Page-1">
-    <mxGraphModel dx="2013" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="30" width="1130" height="830" as="geometry" />
-        </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-1" value="game server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-100" width="560" height="60" as="geometry" />
+          <mxGeometry x="-200" y="30" width="1130" height="860" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-59" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-3" target="7LyzdLkQbXA0cZ49Apmb-21">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-3" value="Netty 接收 Game Server 发送过来的 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-5" target="7LyzdLkQbXA0cZ49Apmb-11">
           <mxGeometry relative="1" as="geometry" />
@@ -65,23 +59,14 @@
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-13" value="pollDone?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="590" y="500" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-15" value="Scheduler 获取并执行&lt;i&gt;&lt;b&gt;&lt;font color=&quot;#ff9999&quot;&gt;特定时间&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;的任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-15" value="&lt;font color=&quot;#ff9999&quot;&gt;Scheduler&lt;/font&gt; 获取并执行&lt;i&gt;&lt;b&gt;&lt;font color=&quot;#ff9999&quot;&gt;特定时间&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;的任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="760" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-16" target="7LyzdLkQbXA0cZ49Apmb-17">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-16" value="将当前状态和上一帧的状态对比, 生成 patch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="580" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-17" target="7LyzdLkQbXA0cZ49Apmb-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-17" value="通过 Netty 发送到 Game Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="580" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-18" value="&lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;特定时间&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: 帧差 * 帧时长(64 ms)&lt;br&gt;&lt;br&gt;帧差: Game Server 发过来的帧值 和 Script Server 当前帧值的 差值&lt;br&gt;&lt;br&gt;bytes 解析器: 读取 bytes, 将其转为 java 对象&lt;br&gt;&lt;br&gt;Scheduler: 用户提交的 setInterval, setTimeout 的 js 定时任务, Script Server 的 java 事件触发任务, 都是由同一个调度器来统一调度&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="40" width="380" height="210" as="geometry" />
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-18" value="&lt;font color=&quot;#ff9999&quot;&gt;&lt;b&gt;特定时间&lt;/b&gt;&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: 帧差 * 帧时长(64 ms)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff9999&quot;&gt;帧差&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: Game Server 发过来的帧值 和 Script Server 当前帧值的 差值&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff9999&quot;&gt;bytes 解析器&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: 读取 bytes, 将其转为 java 对象&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff9999&quot;&gt;Scheduler&lt;/font&gt;&lt;font color=&quot;#7ea6e0&quot;&gt;: 用户提交的 setInterval, setTimeout 的 js 定时任务, Script Server 的 java 事件触发任务, 都是由同一个调度器来统一调度&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="380" height="210" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-20" value="获取方法名字,参数, 通过方法名字和方法参数调用对应的方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
@@ -89,7 +74,7 @@
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-58" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-21" target="7LyzdLkQbXA0cZ49Apmb-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-21" value="bytes 解析器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-21" value="&lt;font color=&quot;#ff9999&quot;&gt;bytes 解析器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=4;" edge="1" parent="1" target="7LyzdLkQbXA0cZ49Apmb-5">
@@ -117,8 +102,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-3" value="Netty 接收 Game Server 发送过来的 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-70" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="670" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-17" value="通过 Netty 发送到 Game Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="580" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-62" value="Game Server 通过 synchronize 方法进行状态同步" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="580" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CCCCCC;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-16" target="7LyzdLkQbXA0cZ49Apmb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="7LyzdLkQbXA0cZ49Apmb-17" target="7LyzdLkQbXA0cZ49Apmb-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
