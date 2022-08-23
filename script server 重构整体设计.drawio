@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T06:57:09.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WZFpiy_9sdmtRe6QRy5f" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T03:14:44.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BoCNwL9UER88gpQKoI3M" version="20.2.6" type="github">
   <diagram id="EDEEomOcJfc4IdZnWbGH" name="Page-1">
     <mxGraphModel dx="1845" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-3" value="Netty 接收 Game Server 发送过来的 bytes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LyzdLkQbXA0cZ49Apmb-70" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7LyzdLkQbXA0cZ49Apmb-70" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="780" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="7LyzdLkQbXA0cZ49Apmb-17" value="通过 Netty 发送到 Game Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
