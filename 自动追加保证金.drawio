@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="DG1Bcbg8MY9_jrmjWcWs">
+    <mxGraphModel dx="1653" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-45" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="246" y="1050" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-1" value="自动追加任务 TASK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-3" value="查询开启了自动追加保证金的策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-6" target="EMX9pLfcdljfSoK_k_qR-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-6" value="消息入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-7" target="EMX9pLfcdljfSoK_k_qR-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-44" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EMX9pLfcdljfSoK_k_qR-39">
+          <mxGeometry x="-0.0925" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-7" value="调用划转接口 -- 重试三次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-10" target="EMX9pLfcdljfSoK_k_qR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-10" value="task 发送消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-16" target="EMX9pLfcdljfSoK_k_qR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-16" value="记录追加成功记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-18" value="&lt;pre&gt;自动追加记录表(新增):&amp;nbsp;t_contract_grid_margin_call_record&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;amount: 记录追加金额，status: 追加状态, step: 追加节点&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;合约策略表: t_contract_grid_strategy&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_auto_margin_call_enabled: 是否启用自动追加&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_total_margin_called: 累计追加金额&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_last_margin_call_time: &lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;最近追加时间&lt;/span&gt;&lt;/p&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="760" y="110" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-21" value="是否超过追加上限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246" y="840" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-22" value="记录追加失败记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-28" value="保证金率 &amp;gt;=&amp;nbsp; 80 + step * 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256.5" y="620" width="193.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-33" value="举例: 当上一次为 82% 触发,&amp;nbsp; 且追加失败, 那么记录 step 为第一次追加&lt;div&gt;当任务继续执行第二次扫到它， 那么再次判定， 此时因为为第二次追加,&amp;nbsp; 那么判定需要追加比例为逻辑 80 + 5 * step == 85&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-34" value="查询自动追加记录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-35" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-28" target="EMX9pLfcdljfSoK_k_qR-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="990" as="sourcePoint" />
+            <mxPoint x="370" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-41" value="调用合约接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-42" value="记录划转表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-43" value="记录划转操作记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-46" value="如果成功之后写库失败了应该怎么处理?&lt;div&gt;带来的问题: 出现多追加的情况&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1130" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-48" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-52" value="计算追加金额" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="293.25" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
