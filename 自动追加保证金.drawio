@@ -110,7 +110,7 @@
           <mxGeometry x="920" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-16" value="client Id 不变情况下，再次调用不会再划转" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1020" width="230" height="30" as="geometry" />
+          <mxGeometry x="26.5" y="1032" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-17" value="驱动表 - 已完成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
           <mxGeometry x="294" y="1450" width="120" height="60" as="geometry" />
