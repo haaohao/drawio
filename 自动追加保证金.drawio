@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="第 1 页" id="DG1Bcbg8MY9_jrmjWcWs">
-    <mxGraphModel dx="3123" dy="2371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2705" dy="2153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -381,6 +381,9 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-135" value="无追加记录/上一次追加成功:step = 0&lt;div&gt;上一次追加失败: step = 上一次追加失败的 step&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="527.5" y="760" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-140" value="行情恶化: step = step + 1&lt;div&gt;行情反转: step = step -1&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="978" width="609" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
