@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="第 1 页" id="DG1Bcbg8MY9_jrmjWcWs">
-    <mxGraphModel dx="3410" dy="2522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3123" dy="2371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,10 +64,10 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-16" target="EMX9pLfcdljfSoK_k_qR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-16" value="插入追加记录&lt;div&gt;&lt;pre style=&quot;&quot;&gt;t_contract_grid_margin_call_record&lt;/pre&gt;&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;未处理&lt;/font&gt;&lt;/b&gt;，&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;clientOrderId -&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;幂等 id-&amp;gt; 最终写入 transfer 表&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFCCE6;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-16" value="插入追加记录&lt;div&gt;&lt;pre style=&quot;&quot;&gt;t_contract_grid_margin_call_record&lt;/pre&gt;&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;未处理&lt;/font&gt;&lt;/b&gt;，&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;clientOrderId -&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;幂等 id-&amp;gt; 最终写入 transfer 表,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(252, 117, 255); font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: transparent;&quot;&gt;step&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFCCE6;" parent="1" vertex="1">
           <mxGeometry x="232.5" y="810" width="295" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-18" value="&lt;pre&gt;&lt;font face=&quot;Verdana&quot;&gt;自动追加记录表(新增):&amp;nbsp;t_contract_grid_margin_call_record&lt;/font&gt;&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_amount: 记录追加金额，f_status: 追加状态-成功，失败, 未处理, f_failCount: 失败次数, canExtract-是否需要提醒用户可提取保证金&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_retry: job 重试次数, f_clientOrderId -&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; white-space: normal;&quot;&gt;&amp;nbsp;幂等 id， f_strategy_id 策略 id,&amp;nbsp; f_preMaginRate: 上一次触发的保证金率&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;合约策略表: t_contract_grid_strategy&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_auto_margin_call_enabled: 是否启用自动追加&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_total_margin_called: 累计追加金额&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_last_margin_call_time: &lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;最近追加时间&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;f_auto_margin_amount - 自动追加金额上限&lt;/span&gt;&lt;/p&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-18" value="&lt;pre&gt;&lt;font face=&quot;Verdana&quot;&gt;自动追加记录表(新增):&amp;nbsp;t_contract_grid_margin_call_record&lt;/font&gt;&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_amount: 记录追加金额，f_status: 追加状态-成功，失败, 未处理, f_step: 失败节点, canExtract-是否需要提醒用户可提取保证金&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_retry: job 重试次数, f_clientOrderId -&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; white-space: normal;&quot;&gt;&amp;nbsp;幂等 id， f_strategy_id 策略 id,&amp;nbsp; f_preMaginRate: 上一次触发的保证金率&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(73, 74, 79); font-family: Menlo-Regular, monospace; font-size: 9.8pt;&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;合约策略表: t_contract_grid_strategy&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_auto_margin_call_enabled: 是否启用自动追加&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_total_margin_called: 累计追加金额&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;f_last_margin_call_time: &lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;最近追加时间&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); white-space: normal;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;f_auto_margin_amount - 自动追加金额上限&lt;/span&gt;&lt;/p&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="180" y="-560" width="840" height="180" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-21">
@@ -91,7 +91,7 @@
         <mxCell id="EMX9pLfcdljfSoK_k_qR-21" value="是否超过追加上限" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="272" y="700" width="216" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-22" value="更新追加记录&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;失败&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-22" value="更新追加记录&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;失败&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;step: step +/- 1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="982" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-49" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-28" target="EMX9pLfcdljfSoK_k_qR-52">
@@ -129,7 +129,7 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-52" target="EMX9pLfcdljfSoK_k_qR-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-52" value="计算追加金额" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-52" value="计算追加金额&lt;div&gt;（新老单币)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-2" value="更新累计追加金额 t_contract_grid_strategy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -159,11 +159,14 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-79" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-78">
           <mxGeometry x="-0.31" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="3" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-25" value="上一次追加为未处理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-28" target="7rB9oNdEizNwiB4zfU3r-116">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-28" value="无追加记录/上一次追加成功:step = 0&lt;div&gt;上一次追加失败: step = 上一次追加失败的 step&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="245" y="350" width="270" height="60" as="geometry" />
@@ -192,12 +195,12 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-61" value="查询追加&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;未处理&lt;/font&gt;记录列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-62">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1006.25" y="850" as="sourcePoint" />
-            <mxPoint x="380" y="930" as="targetPoint" />
+            <mxPoint x="1115" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1160" y="930" />
+              <mxPoint x="1140" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -320,7 +323,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-116" value="step == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288.25" y="440" width="193.5" height="54" as="geometry" />
+          <mxGeometry x="283.25" y="440" width="193.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-118" target="7rB9oNdEizNwiB4zfU3r-120">
           <mxGeometry relative="1" as="geometry" />
@@ -330,16 +333,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-118" target="7rB9oNdEizNwiB4zfU3r-121">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-118" target="7rB9oNdEizNwiB4zfU3r-121">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="937" y="467" />
+              <mxPoint x="975" y="467" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-126" value="no 行情反转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-124">
-          <mxGeometry x="-0.4861" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-137" value="no 行情反转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-136">
+          <mxGeometry x="-0.175" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-118" value="行情恶化&lt;br&gt;&lt;div&gt;&amp;nbsp;当前保证金率 &amp;lt; 上一次追加失败时的保证金率&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -357,14 +360,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-120" value="保证金率 &amp;gt;=&amp;nbsp; 80 + step * 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="594.5" y="530" width="193.5" height="54" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-120" value="100 &amp;gt; 保证金率 &amp;gt;=&amp;nbsp; 80 + step * 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="218" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-121">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-121">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="650" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="937" y="650" />
+              <mxPoint x="975" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -373,8 +376,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-121" value="保证金率 &amp;gt;= 80 - step * 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="530" width="193.5" height="54" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-121" value="保证金率 &amp;gt;= 80 &amp;amp;&amp;amp; &amp;gt;=&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;80 + (step - 2)&lt;/span&gt;&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;* 5&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: start; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;amp;&amp;amp; &amp;lt; 100&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="530" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-135" value="无追加记录/上一次追加成功:step = 0&lt;div&gt;上一次追加失败: step = 上一次追加失败的 step&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="760" width="230" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
