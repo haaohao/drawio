@@ -114,7 +114,7 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-41" target="7rB9oNdEizNwiB4zfU3r-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-41" value="调用合约接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-41" value="调用合约接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" parent="1" vertex="1">
           <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-42" value="记录划转表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
