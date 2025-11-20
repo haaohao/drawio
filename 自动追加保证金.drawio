@@ -10,33 +10,29 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
           <mxGeometry x="1900" y="195" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.529;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-24" target="EMX9pLfcdljfSoK_k_qR-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
-          <mxGeometry x="540" y="944" width="460" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-3" target="EMX9pLfcdljfSoK_k_qR-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
           <mxGeometry x="300" y="1120" width="160" height="330" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-3" value="查询启用自动追加保证金的策略列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-740" width="120" height="60" as="geometry" />
+          <mxGeometry x="318.38" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-6" value="消息入库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="325" y="1400" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="7rB9oNdEizNwiB4zfU3r-260" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="1011.67" as="sourcePoint" />
-            <mxPoint x="540" y="1011.67" as="targetPoint" />
+            <mxPoint x="600" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-44" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EMX9pLfcdljfSoK_k_qR-39" vertex="1" connectable="0">
           <mxGeometry x="-0.0925" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-67" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-7" target="7rB9oNdEizNwiB4zfU3r-40">
@@ -59,7 +55,7 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-16" target="EMX9pLfcdljfSoK_k_qR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-16" value="插入追加记录&lt;div&gt;&lt;pre style=&quot;&quot;&gt;t_contract_grid_margin_call_record&lt;/pre&gt;&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;未处理&lt;/font&gt;&lt;/b&gt;，&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;clientOrderId -&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;幂等 id-&amp;gt; 最终写入 transfer 表, amount-追加金额, triggerPoint - 触发点&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFCCE6;" parent="1" vertex="1">
+        <mxCell id="EMX9pLfcdljfSoK_k_qR-16" value="插入追加记录&lt;div&gt;&lt;pre style=&quot;&quot;&gt;t_contract_grid_margin_call_record&lt;/pre&gt;&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;未处理&lt;/font&gt;&lt;/b&gt;，&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;clientOrderId -&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;幂等 id, amount-实际追加金额, triggerPoint - 触发点&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFCCE6;" parent="1" vertex="1">
           <mxGeometry x="232.5" y="810" width="295" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-18" value="&lt;pre&gt;&lt;font face=&quot;Verdana&quot;&gt;自动追加记录表(新增):&amp;nbsp;t_contract_grid_margin_call_record&lt;/font&gt;&lt;/pre&gt;&lt;div&gt;&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_amount: 记录追加金额，f_status: 追加状态-成功，失败, 未处理, canExtract-是否需要提醒用户可提取保证金&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;f_retry: job 重试次数, f_clientOrderId -&lt;span style=&quot;background-color: transparent; font-size: 12px; white-space: normal;&quot;&gt;&amp;nbsp;幂等 id， f_strategy_id 策略 id,&amp;nbsp; 触发时的保证金率 91%，目标保证金率 50%率,&amp;nbsp;&lt;/span&gt;&lt;/font&gt;triggerPoint - 触发点(保证金率) --&amp;gt; 80, 85, 90, 95&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt;&quot;&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal;&quot;&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal;&quot;&gt;&lt;font&gt;合约策略表: t_contract_grid_strategy&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;f_auto_margin_call_enabled: 是否启用自动追加&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;acount 表&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;f_total_margin_called: 累计追加金额&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;f_last_margin_call_time: &lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;最近追加时间&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;&lt;font&gt;f_auto_margin_amount - 自动追加金额上限 - 待定&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;font face=&quot;PingFang SC&quot;&gt;f_magin_rate - 保证金率&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal; color: rgb(0, 0, 0);&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;&lt;font&gt;合约接口:&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;/v5/trade/position/opens - 查询当前持仓(兼容新老单币)&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;/v5/account/batch_asset_mode - 查询资产模式&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;(兼容新老单币)&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p class=&quot;p1&quot; style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Helvetica Neue&amp;quot;; margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: normal; white-space: normal;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" parent="1" vertex="1">
@@ -84,36 +80,30 @@
         <mxCell id="EMX9pLfcdljfSoK_k_qR-21" value="已追加 + 待追加 &amp;lt;= 追加上限" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="282" y="570" width="216" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-22" value="更新追加记录&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;失败&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="982" width="120" height="58" as="geometry" />
-        </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-34" value="查询追加记录表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-360" width="120" height="60" as="geometry" />
+          <mxGeometry x="318.38" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-180" target="7rB9oNdEizNwiB4zfU3r-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-236" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-234">
           <mxGeometry x="0.7689" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="-190" as="targetPoint" />
+            <mxPoint x="8.379999999999999" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-41" value="调用合约接口&lt;div&gt;失败重试两次&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-220" width="120" height="60" as="geometry" />
+          <mxGeometry x="320.01" y="-100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-42" value="记录划转表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="323.25" y="1310" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-43" value="记录划转操作记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="323.25" y="1360" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="EMX9pLfcdljfSoK_k_qR-48" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EMX9pLfcdljfSoK_k_qR-52" target="EMX9pLfcdljfSoK_k_qR-21">
           <mxGeometry relative="1" as="geometry" />
@@ -132,12 +122,6 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-29" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-10" y="690" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-37" value="记录划转操作记录&lt;div&gt;status: &lt;b&gt;失败&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="982" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-39" value="事务" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="942" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-40" value="事务" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="1120" width="60" height="30" as="geometry" />
@@ -171,11 +155,8 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-62" value="更新重试次数&lt;div&gt;retry = retry +1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-68" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1245" y="404" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-80" value="分布式锁 - 策略 id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-660" width="120" height="60" as="geometry" />
+          <mxGeometry x="318.38" y="-550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-81" target="7rB9oNdEizNwiB4zfU3r-62">
           <mxGeometry relative="1" as="geometry" />
@@ -184,7 +165,7 @@
           <mxGeometry x="1075" y="65" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-91" value="&lt;pre&gt;1.耗时统计埋点，grafna 监控&lt;/pre&gt;&lt;pre&gt;2.线程池&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;font-family: Helvetica; text-align: center; white-space: normal;&quot;&gt;3. 优先队列 - 优化点1&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span style=&quot;font-family: Helvetica; text-align: center; white-space: normal;&quot;&gt;4. 新单币接入 trade-engine - 优化点2&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-1520" width="690" height="100" as="geometry" />
+          <mxGeometry x="-246.75" y="-1520" width="690" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-93">
           <mxGeometry relative="1" as="geometry">
@@ -232,16 +213,13 @@
           <mxGeometry x="1975" y="195" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-115" value="自动追加JOB 3-5秒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-820" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-151" value="消息入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="1002" width="120" height="20" as="geometry" />
+          <mxGeometry x="318.38" y="-710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-154" value="10 mins 处理， 然后发 event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2082.5" y="-150" width="195" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-156" value="biz，唯一约束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="862" width="142" height="80" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-156" value="strategyId, bizId，唯一约束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="840" width="142" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-158" target="7rB9oNdEizNwiB4zfU3r-160">
           <mxGeometry relative="1" as="geometry" />
@@ -260,9 +238,10 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-162">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1140" y="660" as="targetPoint" />
+            <mxPoint x="1140" y="930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1515" y="660" />
+              <mxPoint x="1515" y="930" />
+              <mxPoint x="1140" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -304,11 +283,11 @@
           <mxGeometry x="1620" y="140" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-176" value="查询&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: left;&quot;&gt;acount 表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-590" width="120" height="60" as="geometry" />
+          <mxGeometry x="318.38" y="-474" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-177">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="-80" as="targetPoint" />
+            <mxPoint x="8" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-221" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-220">
@@ -317,10 +296,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-177" value="到追加上限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="272" y="-460" width="216" height="80" as="geometry" />
+          <mxGeometry x="286.01" y="-310" width="188" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-180" target="7rB9oNdEizNwiB4zfU3r-29">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="105" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-204" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-203">
           <mxGeometry x="-0.9326" y="2" relative="1" as="geometry">
@@ -346,16 +329,6 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-183" value="当前保证金率上穿 80" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="284.88" y="160" width="193.5" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-184">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="325" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-196" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-195">
-          <mxGeometry x="-0.215" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-184" target="7rB9oNdEizNwiB4zfU3r-186">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -364,8 +337,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-184" target="7rB9oNdEizNwiB4zfU3r-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-251" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-250">
+          <mxGeometry x="-0.5075" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-184" value="上一次追加成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="240" width="200" height="50" as="geometry" />
+          <mxGeometry x="283.25" y="240" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-186" target="7rB9oNdEizNwiB4zfU3r-187">
           <mxGeometry relative="1" as="geometry" />
@@ -378,11 +359,16 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-186" target="7rB9oNdEizNwiB4zfU3r-192">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-252" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-200">
+          <mxGeometry x="-0.4305" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-186" value="在可触发区间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="223" width="193.5" height="54" as="geometry" />
+          <mxGeometry x="560" y="238" width="193.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-187" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="845" y="230" width="40" height="40" as="geometry" />
+          <mxGeometry x="845" y="245" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-192">
           <mxGeometry relative="1" as="geometry">
@@ -398,10 +384,10 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-205" target="EMX9pLfcdljfSoK_k_qR-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-205" value="触发点=80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="325" width="120" height="60" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-205" value="触发点 = 80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323.25" y="325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-209" value="追加金额 = 待追加&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-209" value="实际追加金额 = 待追加&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-210">
@@ -412,7 +398,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-210" value="追加金额 = 追加上限 -&amp;nbsp; 已追加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-210" value="实际追加金额 = 追加上限 -&amp;nbsp; 已追加" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="680" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.537;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-209" target="EMX9pLfcdljfSoK_k_qR-16">
@@ -429,12 +415,9 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-224" value="触发点 = 80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-228" value="一定要更新当前的保证金率到 db --&amp;gt; account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="-290" width="192.5" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-229">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="10" y="-260" as="targetPoint" />
+            <mxPoint x="8.379999999999999" y="-150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-231" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-230">
@@ -443,16 +426,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-229" value="存在&lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;未处理&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="283.25" y="-285" width="196.75" height="50" as="geometry" />
+          <mxGeometry x="281.63" y="-175" width="196.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-180" value="当前保证金率 &amp;gt;=&amp;nbsp; 80" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="283.25" y="80" width="196.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-245" value="更新 accout 表-当前保证金率" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
-          <mxGeometry x="300" y="-70" width="150" height="40" as="geometry" />
+          <mxGeometry x="305.01" y="-10" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-246" value="上一次保证金率 - accout 表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="-140" width="120" height="40" as="geometry" />
+          <mxGeometry x="321.63" y="-400" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-248" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.189;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-246" target="7rB9oNdEizNwiB4zfU3r-183">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -462,6 +445,34 @@
               <mxPoint x="230" y="20" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-254" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;追加之后, 保证金回到 50%&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-255" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1550" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-256" target="7rB9oNdEizNwiB4zfU3r-255">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-256" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-257" value="更新追加记录&lt;div&gt;status: &lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;失败&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1150" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-258" value="记录划转操作记录&lt;div&gt;status: &lt;b&gt;失败&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="1235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-259" value="消息入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="1315" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-260" value="事务" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="1120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
