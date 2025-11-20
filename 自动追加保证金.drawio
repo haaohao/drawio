@@ -88,7 +88,7 @@
           <mxGeometry x="560" y="982" width="120" height="58" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-34" value="查询追加记录表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-120" width="120" height="60" as="geometry" />
+          <mxGeometry x="325" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EMX9pLfcdljfSoK_k_qR-41" value="调用合约接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;" parent="1" vertex="1">
           <mxGeometry x="325" y="-40" width="120" height="60" as="geometry" />
@@ -293,19 +293,40 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-176" value="查询&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; text-align: left;&quot;&gt;acount 表&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-177" value="是否已到追加上限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-221" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-220">
+          <mxGeometry x="-0.943" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-177" value="未到追加上限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="272" y="-230" width="216" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-180" target="7rB9oNdEizNwiB4zfU3r-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-204" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-203">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-204" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-203">
           <mxGeometry x="-0.9326" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-180" value="当前保证金率 &amp;lt;&amp;nbsp; 80" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="283.25" y="40" width="193.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-183" target="7rB9oNdEizNwiB4zfU3r-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-223" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7rB9oNdEizNwiB4zfU3r-222">
+          <mxGeometry x="0.0938" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-183" target="7rB9oNdEizNwiB4zfU3r-224">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-183" value="当前保证金率上穿 80" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286.5" y="115" width="193.5" height="54" as="geometry" />
@@ -362,7 +383,7 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-205" target="EMX9pLfcdljfSoK_k_qR-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-205" value="触发点 - 80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-205" value="触发点=80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="325" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-209" value="追加金额 = 待追加&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -381,6 +402,17 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.537;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-209" target="EMX9pLfcdljfSoK_k_qR-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-224" value="触发点 = 80" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="325" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
