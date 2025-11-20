@@ -4,8 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-106" target="7rB9oNdEizNwiB4zfU3r-98">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2005" y="404" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
           <mxGeometry x="1900" y="195" width="210" height="130" as="geometry" />
@@ -178,11 +180,12 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-111" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-97" target="7rB9oNdEizNwiB4zfU3r-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-97" target="7rB9oNdEizNwiB4zfU3r-98">
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-97" target="7rB9oNdEizNwiB4zfU3r-295">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1965" y="444" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1840" y="110" />
-              <mxPoint x="1840" y="444" />
+              <mxPoint x="1840" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -193,9 +196,6 @@
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-97" value="&lt;span style=&quot;color: rgb(29, 28, 29); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;盈亏平衡&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1945" y="80" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-98" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1965" y="404" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-99" value="消息入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1945" y="220" width="120" height="20" as="geometry" />
@@ -264,17 +264,16 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-167" value="retry &amp;gt;= 6" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="140" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-168" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1625" y="394" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-170" target="7rB9oNdEizNwiB4zfU3r-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-170" value="分布式锁 - 策略 id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="1455" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-172" target="7rB9oNdEizNwiB4zfU3r-168">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7rB9oNdEizNwiB4zfU3r-172">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="394" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-172" value="告警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="1620" y="140" width="90" height="60" as="geometry" />
@@ -546,6 +545,12 @@
           <mxGeometry x="-0.2325" y="-5" relative="1" as="geometry">
             <mxPoint x="-23" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-294" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7rB9oNdEizNwiB4zfU3r-295" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1985" y="400" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
