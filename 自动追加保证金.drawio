@@ -616,15 +616,6 @@
         <mxCell id="7rB9oNdEizNwiB4zfU3r-323" value="划转瞬间 --&amp;gt; subuser 爆仓" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FF3333;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="825" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-324" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="290" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-325" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="290" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7rB9oNdEizNwiB4zfU3r-326" value="Text" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="290" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7rB9oNdEizNwiB4zfU3r-327" value="指数-重试 10 mins， 半个钟, xxx ， 不进行" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FF3333;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1220" y="214" width="149" height="30" as="geometry" />
         </mxCell>
